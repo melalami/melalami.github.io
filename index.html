@@ -3,59 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <title>Hello World</title>
+    <meta name="description" content="Mohamed El Alami's personal website. PhD in Mathematics, with works on symplectic cohomology and Gromov–Witten theory.">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+    <title>Mohamed El Alami | Mathematician</title>
     <style>
         body {
             margin: 20px;
             padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
         }
         h1 {
-            margin: 20px;
+            margin: 20px 0;
             color: #333;
+            font-size: 24px; /* Reduced font size for h1 */
         }
-        h3 {
-            margin: 40px;
+        h2 {
+            margin: 20px 0;
             color: #333;
+            font-size: 20px; /* Reduced font size for h2 */
         }
         p {
-            margin: 60px;
+            margin: 20px 0;
             color: #555;
             font-size: 16px;
-            line-height: 1;
+        }
+        ul {
+            list-style-type: disc; /* Default bullet point style */
+            padding-left: 40px; /* Increased padding for indentation */
+            margin: 20px 0;
         }
         .inline-list {
             list-style-type: none;
             padding: 0;
-            margin: 60px;
+            margin: 20px 0;
         }
         .inline-list li {
-            display: inline;
-            margin-right: 10px; /* Adjust spacing between items */
+            display: inline-block;
+            margin-bottom: 10px;
         }
-        ul {
-            list-style-type: disc; /* Default bullet point style */
-            padding-left: 20px; /* Adjust padding as needed */
+        ul li {
+            margin-bottom: 10px; /* Increased spacing between bullet points */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                margin: 10px;
+                font-size: 14px;
+            }
+            h1, h2 {
+                margin: 10px 0;
+            }
+            ul {
+                padding-left: 20px; /* Reduce padding on smaller screens */
+            }
+            ul.inline-list li {
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Mohamed El Alami</h1>
-    <h3>About.</h3>
-    <p> 
-        I used to dabble in mathematics. I completed a PhD in Mathematics under the supervision of Mark McLean in Stony Brook University. I also did (part of) a postdoc at the University of Edinburgh under the supervision of Nick Sheridan.
-    </p>
-    <h3>Works.</h3>
+    <h2>About</h2>
     <p>
-        <ul class="inline-list">
-            <li>- SYZ for index one Fano hypersurfaces in the projective space.<br></li>
-            <li>- An open Gromov–Witten formula for Lagrangians in Fano varieties.<br></li>
-            <li>- An \(L_{\infty}\) structure on symplectic cohomology.<br></li>
-            <li>- Maurer–Cartan elements in symplectic cohomology from compactifications.<br></li>
-        </ul>
+        I used to dabble in mathematics. I completed a PhD in Mathematics at Stony Brook University, under the supervision of <a href="https://www.math.stonybrook.edu/~markmclean/index.html">Mark McLean</a>.<br> 
+        I also did (part of) a postdoc at the University of Edinburgh under the supervision of <a href="https://sites.google.com/view/nick-sheridan">Nick Sheridan</a>.
     </p>
-
+    <h2>Works</h2>
+    <ul>
+        <li> <a href="https://arxiv.org/abs/2110.10728">SYZ for index 1 Fano hypersurfaces in projective space</a>.</li>
+        <li> <a href="https://arxiv.org/abs/2305.02102">An open GW-formula for Lagrangians in Fano varieties</a>.</li>
+        <li> <a href="https://arxiv.org/abs/2408.09163">An \(L_{\infty}\) structure on symplectic cohomology.</a> 
+            </br> (with Matthew Strom Borman and Nick Sheridan.)</li>
+        <li> <a href="https://arxiv.org/abs/2408.09221">Maurer--Cartan elements in symplectic cohomology from compactifications.</a>
+        </br> (with Matthew Strom Borman and Nick Sheridan.)</li>
+    </ul>
 </body>
 </html>
+
